@@ -1,16 +1,3 @@
-At first glance Lua looks a lot like Ruby, but
-it has its own subtle quirks.
-
-** Comments **
-
-    -- Single-line comments begin with --
-
-    --[[
-       Block comments can be done like this.
-    ]]--
-
-** Statements **
-
     -- Statements are almost always separated by line breaks.
     local one = 1
     local two = 2

@@ -1,14 +1,3 @@
-JavaScript features a C-style syntax.
-
-** Comments **
-
-    // Single-line comments begin with //
-
-    /* Block comments start with /* and
-       end with */
-
-** Statements **
-
     // Statements are separated by semicolons.
     var one = 1;
     var two = 2;
