@@ -63,3 +63,7 @@ div.select {
   width:100%;
   background-color:white;
 }
+
+div.select select {
+  font-size:36px;
+}
