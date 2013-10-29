@@ -1,0 +1,55 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom: 36px;
+}  /* must be same height as the footer */
+
+#footer {
+  position: relative;
+  margin-top: -36px; /* negative value of footer height */
+  padding: 12px 0 12px 0;
+  height: 12px;
+  font-size:12px;
+  clear:both;
+  text-align:center;
+  z-index:100;
+  background-color: #fff;
+}
+
+/*
+ * Basic Layout
+ */
+.col1 {
+  vertical-align:top;
+  display:inline-block;
+  width:20%;
+}
+
+.col2, .col3 {
+  vertical-align:top;
+  display:inline-block;
+  padding-left: 1%;
+  box-sizing:border-box;
+  width:39%;
+}
+
+ul.topics {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+ul.topics > li:nth-child(2n) {
+  background-color:#ddd;
+}
+
+code {
+  vertical-align:top;
+}

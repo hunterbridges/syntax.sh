@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ch337sh337</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    {{page.pagecss}}
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="main">
+        {{content}}
+      </div>
+    </div>
+
+    <div id="footer">
+    </div>
+
+    {% if page.main %}
+    <script type="text/javascript" data-main="{{page.main}}" src="scripts/lib/require.min.js"></script>
+    {% endif %}
+
+  </body>
+</html>
