@@ -23,6 +23,7 @@ body {
   background-color: #fff;
 }
 
+
 /*
  * Basic Layout
  */
@@ -42,14 +43,23 @@ body {
 
 ul.topics {
   list-style: none;
-  margin:0;
+  margin:2em 0 0 0;
   padding:0;
 }
 
-ul.topics > li:nth-child(2n) {
+ul.topics > li.topic:nth-child(2n) {
   background-color:#ddd;
 }
 
 code {
   vertical-align:top;
+}
+
+div.select {
+  position:fixed;
+  top:0;
+  left:0;
+  height:2em;
+  width:100%;
+  background-color:white;
 }

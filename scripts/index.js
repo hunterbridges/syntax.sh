@@ -41,7 +41,7 @@ require(
         });
     });
 
-    $('ul.topics > li').each(function() {
+    $('ul.topics > li.topic').each(function() {
       var $li = $(this);
       var $a = $(this).find('a').attr('class', 'col1');
       var $aCol = $("<div />", {'class': "lang_a col2"});
@@ -57,17 +57,21 @@ require(
       var selectedLangExt = $select.find('option[value='+$select.val()+']')
           .attr('data-ext');
 
-      $('ul.topics > li').each(function() {
+      $('ul.topics > li.topic').each(function() {
         var $li = $(this);
         var topic = $li.attr('id');
 
-        loadLangData(selectedLang, topic, selectedLangExt, function(example) {
+        var $langCol = $li.find(langClass);
+        $langCol.empty();
 
-          var $langCol = $li.find(langClass);
+        loadLangData(selectedLang, topic, selectedLangExt, function(example) {
 
           if (example) {
             var md = Markdown.toHTML(example);
             $langCol.html(md);
+            $langCol.find('a').each(function() {
+              $(this).attr('target', '_blank');
+            });
 
             $langCol.find('code').each(function() {
               var $code = $(this);
