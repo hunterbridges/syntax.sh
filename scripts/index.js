@@ -70,7 +70,10 @@ require(
             var md = Markdown.toHTML(example);
             $langCol.html(md);
             $langCol.find('a').each(function() {
-              $(this).attr('target', '_blank');
+              var $link = $(this);
+              if ($link.attr('href').substring(0, 1) !== '#') {
+                $link.attr('target', '_blank');
+              }
             });
 
             $langCol.find('code').each(function() {
