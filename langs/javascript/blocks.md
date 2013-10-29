@@ -6,8 +6,5 @@ All blocks contain their own [scope](#scope).
         var two = 2;
     }
 
-They are most often used in conjunction with [control flow](#control_flow) structures.
-
-    if (x == 1) {
-        console.log("x is 1");
-    }
+[Control flow structures](#control_flow) and [functions](#functions) are also
+blocks.

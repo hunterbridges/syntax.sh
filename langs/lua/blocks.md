@@ -6,8 +6,5 @@ Blocks in Lua can be created arbitrarily by containing code between
         local two = 2
     end
 
-[Control flow](#control_flow) structures are also blocks.
-
-    if x == 1 then
-        print "x is 1"
-    end
+[Control flow](#control_flow) structures and [function bodies](#functions) are
+also blocks.

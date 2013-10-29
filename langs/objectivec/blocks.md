@@ -10,8 +10,5 @@ All blocks contain their own [scope](#scope).
         int two = 2;
     }
 
-They are most often used in conjunction with [control flow](#control_flow) structures.
-
-    if (x == 1) {
-        NSLog("x is 1");
-    }
+[Control flow structures](#control_flow) and [functions](#functions) are also
+blocks.
