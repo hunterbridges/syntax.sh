@@ -1,5 +1,7 @@
-    # Ruby features an especially flexible syntax.
-    # Readability was a major influence on its design.
+Ruby features an especially flexible syntax.
+Readability was a major influence on its design.
+
+** Comments **
 
     # Single-line comments begin with #
 
@@ -7,6 +9,8 @@
        Block comments can be done like this, but the
        # style is more common.
     =end
+
+** Statements **
 
     # Statements are separated by line breaks.
     one = 1

@@ -24,7 +24,7 @@ require(
         return;
       }
 
-      $.get('langs/'+langName+'/'+topic+'.'+ext, function(example) {
+      $.get('langs/'+langName+'/'+topic+'.md', function(example) {
         langData[langName][topic] = example;
         cb(example);
       });
@@ -69,10 +69,12 @@ require(
             var md = Markdown.toHTML(example);
             $langCol.html(md);
 
-            var $code = $langCol.find('code');
-            $code.attr('class', selectedLang);
-            var hi = hljs.highlight(selectedLang, $code.html()).value;
-            $code.html(hi);
+            $langCol.find('code').each(function() {
+              var $code = $(this);
+              $code.attr('class', selectedLang);
+              var hi = hljs.highlight(selectedLang, $code.html()).value;
+              $code.html(hi);
+            });
           }
         });
       });

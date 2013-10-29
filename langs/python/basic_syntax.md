@@ -1,5 +1,7 @@
-    # Python features a rigid syntax that promotes cleanliness
-    # and explicitness.
+Python features a rigid syntax that promotes cleanliness
+and explicitness.
+
+** Comments **
 
     # Single-line comments begin with #
 
@@ -8,6 +10,8 @@
     string syntax. Multi-line strings being used as comments
     are filtered out from the evaluated code.
     '''
+
+** Statements **
 
     # Statements are ALWAYS separated by line breaks.
     one = 1
