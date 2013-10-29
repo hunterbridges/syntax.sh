@@ -6,7 +6,7 @@ Block comments start with ```=begin``` and end with ```=end```. It is a bit ugly
 and therefore uncommon.
 
     =begin
-    A long time ago in a galaxy far away
+    A long time ago in a galaxy far far away
 
     Star Wars
 

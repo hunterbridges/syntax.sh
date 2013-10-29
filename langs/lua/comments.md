@@ -5,7 +5,7 @@ Single-line comments begin with ```--```
 Block comments begin with ```--[[``` and end with ```]]--```.
 
     --[[
-    A long time ago in a galaxy far away
+    A long time ago in a galaxy far far away
 
     Star Wars
 

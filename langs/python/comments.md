@@ -7,7 +7,7 @@ string syntax. Multi-line strings being used as comments
 are filtered out from the evaluated code.
 
     '''
-    A long time ago in a galaxy far away
+    A long time ago in a galaxy far far away
 
     Star Wars
 
