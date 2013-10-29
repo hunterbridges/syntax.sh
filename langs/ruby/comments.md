@@ -1,6 +1,15 @@
-    # Single-line comments begin with #
+Single-line comments begin with ```#```
+
+    # This is a single-line comment
+
+Block comments start with ```=begin``` and end with ```=end```. It is a bit ugly
+and therefore uncommon.
 
     =begin
-       Block comments can be done like this, but the
-       # style is more common.
+    A long time ago in a galaxy far away
+
+    Star Wars
+
+    Episode IV
+    A New Hope
     =end

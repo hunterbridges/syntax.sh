@@ -28,7 +28,7 @@ body {
  * Basic Layout
  */
 .col1 {
-  vertical-align:top;
+  vertical-align:middle;
   display:inline-block;
   width:20%;
 }
@@ -47,8 +47,8 @@ ul.topics {
   padding:0;
 }
 
-ul.topics > li.topic:nth-child(2n) {
-  background-color:#ddd;
+ul.topics > li.topic {
+  border-top:1px solid #ddd;
 }
 
 code {

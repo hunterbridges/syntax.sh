@@ -1,5 +1,14 @@
-    -- Single-line comments begin with --
+Single-line comments begin with ```--```
+
+    -- This is a single-line comment
+
+Block comments begin with ```--[[``` and end with ```]]--```.
 
     --[[
-       Block comments can be done like this.
+    A long time ago in a galaxy far away
+
+    Star Wars
+
+    Episode IV
+    A New Hope
     ]]--

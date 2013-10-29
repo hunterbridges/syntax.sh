@@ -1,7 +1,9 @@
-    # Statements are separated by line breaks.
+Statements are separated by line breaks.
+
     one = 1
     two = 2
 
-    # Statements can also be separated by semicolons. This is
-    # less common, but comes in handy.
+Statements can also be separated by semicolons. This allows more flexible
+use of whitespace.
+
     one = 1; two = 2;
