@@ -7,6 +7,11 @@ you have to rewrite the code yourself)!
 The idea is to show the same example in each different language for every topic. It's meant to be a resource
 for people jumping from one language to another. It is not meant to explain concepts in depth.
 
+At this point, it is very incomplete. Expect PHP and C to be added after these
+languages are done.
+
+See it for yourself! [syntax.sh](http://syntax.sh)
+
 Acknowledgements
 ================
 [Zepto](http://zeptojs.com/), [RequireJS](http://requirejs.org/), [Underscore.js](http://underscorejs.org/),
