@@ -1,5 +1,4 @@
 Blocks in JavaScript can be created arbitrarily by containing code in braces.
-All blocks contain their own [scope](#scope).
 
     {
         var one = 1;
@@ -7,4 +6,4 @@ All blocks contain their own [scope](#scope).
     }
 
 [Control flow structures](#control_flow) and [functions](#functions) are also
-blocks.
+blocks. Functions are the only blocks that contain their own [scope](#scope).

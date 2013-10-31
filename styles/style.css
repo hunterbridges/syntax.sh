@@ -51,8 +51,20 @@ ul.topics > li.topic {
   border-top:1px solid #ddd;
 }
 
+ul.topics > li {
+  transition: 0.5s all;
+}
+
+li:target {
+  background-color:#ffffcc;
+}
+
 code {
   vertical-align:top;
+}
+
+pre {
+  overflow:scroll;
 }
 
 div.select {
@@ -67,3 +79,4 @@ div.select {
 div.select select {
   font-size:36px;
 }
+
