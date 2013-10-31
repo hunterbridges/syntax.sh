@@ -4,7 +4,7 @@ The truth value of the following values are **false**: ```undefined```,
 The truth of all other values is **true**. The truth value of
 empty string (```""```) is **true**.
 
-Use two [_not_ operators](#logcal) (```!```) to find the truth of a given
+Use two [_not_ operators](#logical) (```!```) to find the truth of a given
 value.
 
     console.log(!!"")

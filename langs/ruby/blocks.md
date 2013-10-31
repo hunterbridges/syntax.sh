@@ -14,4 +14,4 @@ and ```end```. This is a hack of the
 
 [Class declarations](#class_declaration), modules, [functions](#functions),
 lambdas, [Ruby blocks](#callables_by_reference), and
-[control flow structures](#control_flow_structure) are also blocks.
+[control flow structures](#control_flow) are also blocks.

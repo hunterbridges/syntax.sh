@@ -24,7 +24,7 @@ Assigning a variable that has not been declared will implicitly declare it in
 
     setbar();
 
-    # Logs 2
+    // Logs 2
     console.log(bar);
 
 **Reading** a variable that has **not been declared** will throw an [exception](#exceptions).

@@ -55,7 +55,7 @@ ul.topics > li {
   transition: 0.5s all;
 }
 
-li:target {
+li.current_section {
   background-color:#ffffcc;
 }
 
