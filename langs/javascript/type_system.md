@@ -4,8 +4,8 @@ JavaScript is an interpreted language, a program can not be
 [type checked](http://en.wikipedia.org/wiki/Type_safety) before it executes.
 
 JavaScript values can be of the following types:
-```String```, ```Boolean```, ```Number```, ```Object```, ```undefined```,
-```NaN```, and ```null```.
+```String```, ```Boolean```, ```Number```, ```Object```, ```Function```,
+```undefined```, ```NaN```, and ```null```.
 
 If an operation expects differently typed values than it is provided,
 the interpreter will attempt to [coerce](http://en.wikipedia.org/wiki/Type_conversion)

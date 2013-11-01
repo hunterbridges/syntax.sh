@@ -3,8 +3,8 @@ is declared.
 
     var outer = 1;
     (function() {
-        // Logs 1
         console.log(outer);
+        // Logs 1
 
         var inner = 2;
     }());
@@ -24,11 +24,11 @@ without the ```var``` keyword.
         var b = 2;
     }());
 
-    // Logs 1
     console.log(a);
+    // Logs 1
 
-    // Throws an exception
     console.log(b);
+    // Throws an exception
 
 Functions that reference variables from inherited scopes are called
 [closures](#closures).

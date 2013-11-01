@@ -1,5 +1,5 @@
 Variables in JavaScript are not strongly typed. A variable can hold any type
-of value, and a value will retain its type.
+of value, and values are always aware of their own types.
 
 Variables are **declared** using the ```var``` keyword.
 
@@ -24,7 +24,7 @@ Assigning a variable that has not been declared will implicitly declare it in
 
     setbar();
 
-    // Logs 2
     console.log(bar);
+    // Logs 2
 
 **Reading** a variable that has **not been declared** will throw an [exception](#exceptions).
