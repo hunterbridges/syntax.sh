@@ -1,4 +1,1 @@
-    if true then
-      local one = 1
-    end
-    print(one)
+    print(not not 0)
