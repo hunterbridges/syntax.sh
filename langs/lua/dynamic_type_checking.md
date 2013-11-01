@@ -9,6 +9,3 @@ given value. It will return ```"number"```, ```"string"```,
     local foo = "bar"
     print(type(foo))
     -- Prints "string"
-
-[Comparison operators](#comparison) are type-safe in Lua, e.g. ```2 == "2"```
-evaluates to ```false```.

@@ -1,4 +1,4 @@
-Variables in Lua are not strongly typed. A variable can hold any type of value,
+Variables in Lua are not strongly typed. A variable can hold any type of value
 and values are always aware of their own types.
 
 Variables are **declared** using the ```local``` keyword.
@@ -27,4 +27,4 @@ Assigning a variable that has not been declared will implicitly declare it in
     print(bar)
     -- Prints 2
 
-**Reading** a variable that has **not been declared** will return ```nil```.
+**Reading** a variable that has **not been declared** will yield ```nil```.

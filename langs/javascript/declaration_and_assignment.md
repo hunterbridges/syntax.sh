@@ -1,5 +1,5 @@
 Variables in JavaScript are not strongly typed. A variable can hold any type
-of value, and values are always aware of their own types.
+of value and values are always aware of their own types.
 
 Variables are **declared** using the ```var``` keyword.
 
