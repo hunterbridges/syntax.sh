@@ -14,3 +14,11 @@ type-safe in JavaScript and will attempt to coerce values to determine equality.
 JavaScript provides the ```===``` and ```!==``` operators to determine type-safe
 equality. The “triple equals” operators are often preferred over the
 “double equals” operators due to the additional level of type safety they provide.
+
+    if (1 == "1") {
+        // true
+    }
+
+    if (1 === "1") {
+        // false
+    }

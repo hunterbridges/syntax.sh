@@ -1,9 +1,9 @@
-Use the ```.class``` method to return the class of a given value.
+Use the ```.is_a?``` method to check if a value is of a certain Class.
 
-    puts 1.class == Fixnum
+    puts 1.is_a?(Fixnum)
     # Puts true
 
-    puts "hello".class == String
+    puts "hello".is_a?(String)
     # Puts true
 
 There is also the ```nil?``` convenience method to check if a value is nil
