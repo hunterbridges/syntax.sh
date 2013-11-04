@@ -24,7 +24,7 @@
   Made with love by Jxnblk
 
 */
-body, h1, h2, h3, h4, h5, h6, dl, ol, ul, p,
+body, h1, h2, h3, h4, h5, h6, dl, ol, ul,
 button, input, select, textarea {
   margin: 0; }
 
@@ -40,6 +40,8 @@ body {
   color: #555;
   line-height: 1.7em;
   background-color: #fff; }
+
+/* Type scale */
 
 h1, h2, h3 {
   color: #555;
@@ -65,8 +67,14 @@ h4, .h4 {
   font-size: 1.5rem;
   line-height: 1.5; }
 
-h5, h6, dl, ol, ul, p, .p {
+code {
+  margin: 0 2px;
+  font-size: 1.15em;
+  color: #888; }
+
+h5, h6, dl, ol, ul, p, .p, pre code {
   font-size: 1.125rem; }
+
 
 small, .small {
   font-size: .875rem; }
@@ -310,7 +318,7 @@ a:active  { color: #008fd5; }
 .col1 {
   vertical-align:middle;
   display:inline-block;
-  width:20%;
+  width:14%;
 }
 
 .col2, .col3 {
@@ -318,12 +326,12 @@ a:active  { color: #008fd5; }
   display:inline-block;
   padding-left: 4%;
   box-sizing:border-box;
-  width:36%;
+  width:39%;
 }
 
 ul.topics {
   list-style: none;
-  margin:2em 0 0 0;
+  margin:4em 0 0 0;
   padding:0;
 }
 
@@ -341,11 +349,7 @@ li.current_section {
   background-color:#ffffcc;
 }
 
-code {
-  vertical-align:top;
-}
-
-pre {
+pre code {
   overflow:scroll;
 }
 
@@ -353,9 +357,11 @@ div.select {
   position:fixed;
   top:0;
   left:0;
-  height:2em;
+  height:3em;
   width:100%;
-  background-color:white;
+  padding: 1em;
+  background-color: #efefef;
+  border-bottom: 1px #eee solid;
 }
 
 div.select select {
