@@ -180,7 +180,7 @@ a:active  { color: #008fd5; }
 /*
  * Basic Layout
  */
-.col1. .col2, .col3 {
+.col1, .col2, .col3 {
   display: block;
   width: 100%;}
 
@@ -194,7 +194,7 @@ a.col1 {
 
 
 @media (min-width: 768px) {
-.col1 {
+.col1, .col2, .col3 {
   display: block;
   width: 100%; }
 }
@@ -212,6 +212,9 @@ a.col1 {
   padding-left: 4%;
   box-sizing:border-box;
   width:39%; }
+
+.col2 {
+  border-bottom: none; }
 }
 
 @media screen and (min-width: 1280px) {
@@ -226,6 +229,9 @@ a.col1 {
   padding-left: 4%;
   box-sizing:border-box;
   width:39%; }
+
+.col2 {
+  border-bottom: none; }
 }
 
 /* =============== */
