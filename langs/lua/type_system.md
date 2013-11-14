@@ -8,9 +8,10 @@ Lua values can be of the following types:
 ```nil```, ```userdata```, and ```lightuserdata```.
 
 If an operation expects differently typed values than it is provided,
-the interpreter will attempt to [coerce](http://en.wikipedia.org/wiki/Type_conversion)
-the values to compatible types. This can cause bugs that are hard to track down.
-If the interpreter can not coerce the values, it generates an [error](#exceptions).
+the interpreter will attempt to coerce the values to compatible types.
+This can cause bugs that are hard to track down. If the interpreter can not
+coerce the values, it generates an [error](#exceptions).
+
 Lua coerces values left-to-right.
 
     local one = "1"
